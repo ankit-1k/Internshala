@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let's make design</title>
+    <style>
+        body {
+            background-color: rgb(27, 27, 99);
+            color: white;
+        }
+
+        .text-muted {
+            color: #6c757d;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-brand {
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .btn {
+            padding: 5px;
+            margin-top: -10px;
+            margin-right: 45px;
+            border: 1px solid rgb(2, 2, 143);
+            color: white;
+            background-color: rgb(2, 2, 143);
+            border-radius: 50px;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+
+        .nav-ul-2 li {
+            color: white;
+        }
+
+        .nav-ul-1 {
+            font-weight: bold;
+        }
+
+        /* Banner */
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin-top: 30px;
+        }
+
+        .font-lg {
+            font-size: 36px;
+        }
+
+        .txt {
+            text-align: center;
+        }
+
+        .para {
+            line-height: 20px;
+        }
+
+        .form {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .banner .form input {
+            height: 35px;
+            width: 240px;
+            border: 1px solid #6c757d;
+            border-radius: 50px;
+        }
+
+        .banner .form button {
+            height: 35px;
+            width: 80px;
+            border: 1px solid #4DD0E1;
+            background-color: #4DD0E1;
+            border-radius: 50px;
+            color: white;
+        }
+
+        .form input {
+            background-color: rgb(27, 27, 99);
+        }
+
+        .bottom-txt {
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-ul-1">
+            <li class="nav-brand">
+                Startup 3
+            </li>
+        </ul>
+        <ul class="nav-ul-2">
+            <li class="text-muted">Subscribe</li>
+            <li class="text-muted">Features</li>
+            <li><button class="btn">Sigh Up</button></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="banner">
+            <div class="txt">
+                <blockquote class="font-lg">Let's make design fast <br> and easy</blockquote>
+                <blockquote class="para">The most important part of the Startup is the samples. <br>
+                    The samples from a set of 25 usable pages you can use as <br>
+                    is or you can add new blocks from UI Kit.
+                </blockquote>
+                <div class="form">
+                    <input type="email" placeholder="&nbsp; Your email">
+                    <button>send</button>
+                </div>
+                <div class="bottom-txt text-muted">
+                    By signing up. you agree to the terms of Services
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
